@@ -79,3 +79,44 @@ button {
     border: none;
     cursor: pointer;
 }
+
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 64px 20% 240px;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 64px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.fake-illustration {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+.subtext {
+    color: #1F2937;;
+}
